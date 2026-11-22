@@ -1,0 +1,16 @@
+W1119 01:58:50.115000 11466 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+/Users/dmitrijpostnov/Documents/reels/F5-TTS-main/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Download Vocos from huggingface charactr/vocos-mel-24khz
+
+vocab :  /Users/dmitrijpostnov/Documents/reels/F5-TTS-main/ckpts/ru/F5TTS_v1_Base/vocab.txt
+token :  custom
+model :  /Users/dmitrijpostnov/Documents/reels/F5-TTS-main/ckpts/ru/F5TTS_v1_Base_v2/model_last_inference.safetensors 
+
+[03] Ег+о зв+али граф Сен-Жерм+ен — и отк+уда он вз+ялся, не знал никт+о.
+
+ref_text   В ваг+оне с+орок челов+ек. Вс+е в с+ером. Вс+е см+отрят в п+ол. Но присмотр+ись. У одног+о из-под рукав+а торч+ит кр+асная н+итка. У втор+ого. У дес+ятого. 
+gen_text 0 Ег+о зв+али граф Сен-Жерм+ен — и отк+уда он вз+ялся, не знал никт+о.
+
+

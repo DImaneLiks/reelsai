@@ -1,0 +1,9 @@
+  0.0s / 53.56
+/Users/dmitrijpostnov/Documents/history/build05/render.py:589: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)
+  out = Image.fromarray(a.astype(np.uint8), "RGBA")
+ 10.0s / 53.56
+ 20.0s / 53.56
+ 30.0s / 53.56
+ 40.0s / 53.56
+ 50.0s / 53.56
+готово: /Users/dmitrijpostnov/Documents/history/История 05 - Сен-Жермен.mp4
