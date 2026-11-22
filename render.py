@@ -17,7 +17,9 @@ from ep1_build.render import (W, H, FPS, YEL, text_c, F, ramp, lerp, ease, mix, 
 
 TL = json.load(open(os.path.join(ROOT, "timeline.json")))
 DUR = TL["total"]
-OUT = os.path.join(ROOT, "История 05 - Сен-Жермен.mp4")
+OUT_DIR = os.path.join(ROOT, "output")
+os.makedirs(OUT_DIR, exist_ok=True)
+OUT = os.path.join(OUT_DIR, "История 05 - Сен-Жермен.mp4")
 R.TL = TL
 R.SPEECH = {}
 for c in TL["clips"]:
