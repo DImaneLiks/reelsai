@@ -11,14 +11,13 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-REELS = "/Users/dmitrijpostnov/Documents/reels"
-sys.path.insert(0, os.path.join(REELS, "ep1_build"))
-import render as R
-from render import (W, H, FPS, YEL, text_c, F, ramp, lerp, ease, mix, clamp, camera)
+sys.path.insert(0, ROOT)
+from ep1_build import render as R
+from ep1_build.render import (W, H, FPS, YEL, text_c, F, ramp, lerp, ease, mix, clamp, camera)
 
 TL = json.load(open(os.path.join(ROOT, "timeline.json")))
 DUR = TL["total"]
-OUT = os.path.join(os.path.dirname(ROOT), "История 05 - Сен-Жермен.mp4")
+OUT = os.path.join(ROOT, "История 05 - Сен-Жермен.mp4")
 R.TL = TL
 R.SPEECH = {}
 for c in TL["clips"]:
